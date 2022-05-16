@@ -1,14 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Frontend Mentor | Fylo data storage component</title>
-  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Frontend Mentor | Fylo data storage component</title>
+	<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+	<link rel="stylesheet" href="normalize.css">
+	<link rel="stylesheet" href="style.css">
 </head>
 <body>
 <main>
-
+	<div class="container">
+		<div class="fylo card">
+			<div class="logo">
+				<img src="images/logo.svg" alt="Fylo">
+			</div>
+			<div class="icons">
+				<img src="images/icon-document.svg" alt="Document">
+				<img src="images/icon-folder.svg" alt="Folder">
+				<img src="images/icon-upload.svg" alt="Upload">
+			</div>
+		</div>
+		<div class="consume card">
+			<p>You've used <span>815 GB</span> of your storage</p>
+			<div class="bar">
+				<div class="progress"></div>
+			</div>
+			<div class="GBs">
+				<p>0 GB</p>
+				<p>1000 GB</p>
+			</div>
+			<div class="space-left">
+				<p>185</p>
+				<p class="gb">GB LEFT</p>
+			</div>
+		</div>
+	</div>
 </main>
 </body>
 </html>
